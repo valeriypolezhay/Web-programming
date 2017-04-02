@@ -1,0 +1,12 @@
+table {
+    background: lightgray; /* Цвет фона таблицы */
+    border: 5px double #000; /* Рамка вокруг таблицы */
+    text-align: center;
+}
+tbody tr:hover {
+    color: blue; /* Цвет текста при наведении */
+}
+.success
+{
+    color: green;
+}

@@ -1,0 +1,30 @@
+.main-center{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin: -125px 0 0 -125px;
+    text-align: center;
+}
+.test-center{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    margin: -125px 0 0 -125px;
+    text-align: center;
+}
+#footer
+{
+    font-style: unset;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
+h1,h2{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 300%;
+    text-shadow: black 2px 2px 2px;
+}

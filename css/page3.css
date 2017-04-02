@@ -1,0 +1,75 @@
+.text60 {
+    left: 40%;
+    right: 1%;
+    height: 600px;
+    top: 1%;
+    bottom: 1%;
+    position: absolute;
+}
+
+.first_block, .second_block, .third_block ,.forth_block, .fifth_block{
+    word-wrap: break-word;
+    padding: 1%
+}
+
+.first_block {
+    background: lightgreen;
+    height: 20%;
+    width: 40%;
+    position: absolute;
+}
+
+.second_block {
+    background: lightpink;
+    left: 40%;
+    height: 20%;
+    width: 60%;
+    position: relative;
+}
+
+.third_block {
+    background: cornflowerblue;
+    top: 21%;
+    height: 35%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.forth_block {
+    background: darkorange;
+    top: 58.5%;
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    z-index:2
+}
+
+.grivb{
+    top: 30%;
+    width: 350px;
+    height: 300px;
+    background: white url(../img/grivb.jpg) 48.5% 0%;
+    position: fixed;
+    outline: 10px solid yellow;
+}
+
+
+.date {
+    background: #F5F5F5;
+    width: 120px; height: 20px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    box-shadow: 7px 5px 2px rgba(0,0,0,0.5);
+}
+
+.fifth_block{
+Width: 150px;	height: 400px;
+background: lime;
+position: absolute;
+top:80px;
+right:250px;
+z-index: 0;
+}

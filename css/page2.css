@@ -1,0 +1,51 @@
+.center{
+    width: 400px;
+    height: 250px;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    margin: -125px 0 0 -125px;
+    text-align: center;
+}
+.image {
+    vertical-align: middle;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.table{
+    top:50%;
+    vertical-align: middle;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sd
+{
+    top:60%;
+    vertical-align: middle;
+    position: fixed;
+    left:30%;
+    padding: 50px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    font-style: italic;
+    color: mediumblue;
+}
+ul {
+    list-style: square /* Квадратные маркеры */
+    /* Маркеры размещаются за
+       пределами текстового блока */
+}
+/*.foot
+{
+    top:80%;
+    left:45%;
+    vertical-align: middle;
+    position: fixed;
+    text-align:center;
+    padding: 50px; /* Поля вокруг текста
+    margin:auto; /* Выравниваем по центру
+    font-style:unset;
+    color:mediumblue;
+}
+*/
