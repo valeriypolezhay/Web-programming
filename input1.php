@@ -25,3 +25,6 @@ $arr = array('Name' => $name, 'vote' => $vote, 'comment' => $comment);
 
 $json_pretty=json_encode($arr,JSON_PRETTY_PRINT, JSON_UNESCAPED_UNICODE);
 file_put_contents('form_data.json',$json_pretty ,FILE_APPEND); //file_append не работает для json
+
+
+//переделать json
