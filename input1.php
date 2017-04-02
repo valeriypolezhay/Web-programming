@@ -23,8 +23,20 @@ echo ("<i>Ваш ответ записан </i>");
 $arr = array('Name' => $name, 'vote' => $vote, 'comment' => $comment);
 
 
-$json_pretty=json_encode($arr,JSON_PRETTY_PRINT, JSON_UNESCAPED_UNICODE);
-file_put_contents('form_data.json',$json_pretty ,FILE_APPEND); //file_append не работает для json
+
+$export = $json_export = array();
+if (($arr = file_get_contents('form_data.json')) != false) {
+    $export = json_decode($arr, true);
+}
+array_push($export, $_GET);
+$json_export = json_encode($export, JSON_PRETTY_PRINT);
+file_put_contents('form_data.json', $json_export);
 
 
-//переделать json
+var_dump($arr);PHP_EOL;
+var_dump($export);PHP_EOL;
+var_dump($json_export);PHP_EOL;
+var_dump($arr);PHP_EOL;
+var_dump($export);PHP_EOL;
+var_dump($export);PHP_EOL;
+var_dump($json_export);PHP_EOL;
