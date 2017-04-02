@@ -32,11 +32,10 @@ array_push($export, $_GET);
 $json_export = json_encode($export, JSON_PRETTY_PRINT);
 file_put_contents('form_data.json', $json_export);
 
-
-var_dump($arr);PHP_EOL;
-var_dump($export);PHP_EOL;
-var_dump($json_export);PHP_EOL;
-var_dump($arr);PHP_EOL;
-var_dump($export);PHP_EOL;
-var_dump($export);PHP_EOL;
-var_dump($json_export);PHP_EOL;
+//var_dump($arr);PHP_EOL;
+//var_dump($export);PHP_EOL;
+//var_dump($json_export);PHP_EOL;
+//var_dump($arr);PHP_EOL;
+//var_dump($export);PHP_EOL;
+//var_dump($export);PHP_EOL;
+//var_dump($json_export);PHP_EOL;
